@@ -1,0 +1,10 @@
+server:
+  port: 8094
+  servlet:
+    context-path: /appointment
+    
+spring:
+  application:
+    name: appointment-service
+  profiles:
+    active: dev
